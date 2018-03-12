@@ -8,4 +8,4 @@ node multiply a b
 where `a` and `b` can be any number
 
 ### Resources:
-https://en.wikipedia.org/wiki/Ancient_Egyptian_multiplication
+* https://en.wikipedia.org/wiki/Ancient_Egyptian_multiplication
