@@ -6,3 +6,4 @@ Data Structures and Algorithms Challenges
 * [Linear Search](2-linear-search)
 * [Fibonacci Number](3-fibonacci-number)
 * [Greedy Algorithm (Minimum Numbers of Coins)](4-greedy-algorithm)
+* [Binary Search](5-binary-search)
