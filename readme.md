@@ -7,3 +7,4 @@ Data Structures and Algorithms Challenges
 * [Fibonacci Number](3-fibonacci-number)
 * [Greedy Algorithm (Minimum Numbers of Coins)](4-greedy-algorithm)
 * [Binary Search](5-binary-search)
+* [Insertion Sort](6-insertion-sort)
