@@ -8,3 +8,4 @@ Data Structures and Algorithms Challenges
 * [Greedy Algorithm (Minimum Numbers of Coins)](4-greedy-algorithm)
 * [Binary Search](5-binary-search)
 * [Insertion Sort](6-insertion-sort)
+* [Stack](7-stack)
