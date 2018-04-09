@@ -10,3 +10,4 @@ Data Structures and Algorithms Challenges
 * [Insertion Sort](6-insertion-sort)
 * [Stack](7-stack)
 * [Bubble Sort](8-bubble-sort)
+* [Implement Queue using Stacks](9-queue-using-stacks)
