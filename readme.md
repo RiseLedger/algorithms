@@ -9,3 +9,4 @@ Data Structures and Algorithms Challenges
 * [Binary Search](5-binary-search)
 * [Insertion Sort](6-insertion-sort)
 * [Stack](7-stack)
+* [Bubble Sort](8-bubble-sort)
