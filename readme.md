@@ -11,3 +11,4 @@ Data Structures and Algorithms Challenges
 * [Stack](7-stack)
 * [Bubble Sort](8-bubble-sort)
 * [Implement Queue using Stacks](9-queue-using-stacks)
+* [Derangement](10-derangement)
