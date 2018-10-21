@@ -5,4 +5,3 @@ The is the granddaddy of all algorithms, because it is the oldest nontrivial alg
 
 ### Resource
 * https://en.wikipedia.org/wiki/Euclidean_algorithm
-* http://bigocheatsheet.com/
