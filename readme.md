@@ -14,3 +14,4 @@ Data Structures and Algorithms Challenges
 * [Derangement](10-derangement)
 * [Bell Triangle](11-bell-triangle)
 * [Selection Sort](12-selection-sort)
+* [Euclidean Algorithm](13-euclidean-algorithm)
