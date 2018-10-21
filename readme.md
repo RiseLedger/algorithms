@@ -13,3 +13,4 @@ Data Structures and Algorithms Challenges
 * [Implement Queue using Stacks](9-queue-using-stacks)
 * [Derangement](10-derangement)
 * [Bell Triangle](11-bell-triangle)
+* [Selection Sort](12-selection-sort)
