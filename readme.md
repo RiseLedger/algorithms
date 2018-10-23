@@ -16,3 +16,4 @@ Data Structures and Algorithms Challenges
 * [Selection Sort](12-selection-sort)
 * [Euclidean Algorithm](13-euclidean-algorithm)
 * [Quicksort](14-quicksort)
+* [Queue](15-queue)
