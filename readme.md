@@ -17,4 +17,5 @@ Data Structures and Algorithms Challenges
 * [Euclidean Algorithm](13-euclidean-algorithm)
 * [Quicksort](14-quicksort)
 * [Queue](15-queue)
-* [Linked list](16-linked-list)
+* [Linked List](16-linked-list)
+* [Hash Table](17-hash-table)
