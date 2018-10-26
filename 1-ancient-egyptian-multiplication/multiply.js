@@ -1,10 +1,5 @@
-const [a, b] = process.argv.slice(2).map(Number);
-
 function egyptianMultiplication(a, b) {
   let z = 0;
-  if (a === 0) {
-    return z;
-  }
 
   while (a > 0) {
     if (a % 2 === 1) {
