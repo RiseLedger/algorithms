@@ -1,0 +1,23 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms Challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiseLedger/algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiseLedger/algorithms/issues"
+  },
+  "homepage": "https://github.com/RiseLedger/algorithms#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

@@ -18,5 +18,4 @@ function egyptianMultiplication(a, b) {
   return z;
 }
 
-const output = egyptianMultiplication(a, b);
-console.log(output);
+module.exports = egyptianMultiplication;
