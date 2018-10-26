@@ -54,6 +54,36 @@ class LinkedList {
     }
   }
 
+  getData() {
+    if (!this.head) {
+      return;
+    }
+
+    const data = [];
+    let current = this.head;
+
+    while (current) {
+      data.push(current.val);
+      current = current.next;
+    }
+
+    return data;
+  }
+
+  search(val) {
+    let current = this.head;
+
+    while (current) {
+      if (current.val === val) {
+        return true;
+      }
+
+      current = current.next;
+    }
+
+    return false;
+  }
+
   size() {
     return this.count;
   }
