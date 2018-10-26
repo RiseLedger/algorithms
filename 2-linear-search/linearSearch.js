@@ -1,10 +1,6 @@
-const [arr, x] = process.argv.slice(2);
-const list = JSON.parse(arr);
-const num = Number(x);
-
-function linearSearch(list, num) {
+function linearSearch(list, item) {
   for (let i = 0; i < list.length; i++) {
-    if (list[i] === num) {
+    if (list[i] === item) {
       return i;
     }
   }
@@ -12,5 +8,4 @@ function linearSearch(list, num) {
   return -1;
 }
 
-const output = linearSearch(list, num);
-console.log(output);
+module.exports = linearSearch;
