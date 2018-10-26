@@ -4,7 +4,8 @@
   "description": "Data Structures and Algorithms Challenges",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage true"
   },
   "repository": {
     "type": "git",
