@@ -8,6 +8,7 @@ module.exports = {
   coveragePathIgnorePatterns: [
     '/node_modules/',
     '/coverage/',
-    'jest.config.js'
+    'jest.config.js',
+    'example.js',
   ],
 };
