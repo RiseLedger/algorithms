@@ -1,51 +1,26 @@
 const Queue = require('./../15-queue/Queue');
 
-function bfs(matrix, start, end) {
+function bfs(Graph, start, end) {
   const q = new Queue();
-  const graph = [];
-  const path = [];
+  const visited = [];
 
-  for (let i = 0; i < matrix.length; i++) {
-    graph[i] = [];
-    for (let j = 0; j < matrix.length; j++) {
-      if (matrix[i][j] !== '0') {
-        graph[i][j] = {
-          isVisited: 0,
-          val: matrix[i][j],
-          index: j,
-        };
-      }
-      else {
-        graph[i][j] = 0;
-      }
-    }
-  }
-
-  // initialize
-  for (let i = 0; i < graph[start].length; i++) {
-    if (graph[start][i]) {
-      q.enqueue(graph[start][i]);
-    }
-  }
-
+  q.enqueue(start);
   while (!q.isEmpty()) {
     const vertex = q.dequeue();
 
-    if (vertex.isVisited) {
+    if (visited.includes(vertex)) {
       continue;
     }
 
-    path.push(vertex);
+    visited.push(vertex);
 
-    if (vertex.val === end) {
+    if (vertex === end) {
       return true;
     }
 
-    vertex.isVisited = 1;
-    for (let i = 0; i < graph[vertex.index].length; i++) {
-      if (graph[vertex.index][i]) {
-        q.enqueue(graph[vertex.index][i]);
-      }
+    const neighbours = Graph[vertex];
+    for (let i = 0; i < neighbours.length; i++) {
+      q.enqueue(neighbours[i]);
     }
   }
 

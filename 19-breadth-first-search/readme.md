@@ -9,10 +9,10 @@ Breadth-first search (BFS) is an algorithm for traversing or searching tree or g
 ## Implementation
 <img width="200" src="graph.png" />
 
-Above graph will be used as an example to show how BFS works. [Adjacency matrix](19-breadth-first-search/graph.in) is used as input for BFS.
+Above graph will be used as an example to show how BFS works.
 
 **Input:**
-- Adjacency matrix
+- Adjacency list
 - Start Vertex
 - End Vertex
 
