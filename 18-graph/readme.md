@@ -24,7 +24,7 @@ c adjacent to a, b
 
 <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/6n-graph2.svg/375px-6n-graph2.svg.png" />
 
-The convention followed here (for undirected graphs) is that each edge adds 1 to the appropriate cell in the matrix, and each loop adds 2.[4] This allows the degree of a vertex to be easily found by taking the sum of the values in either its respective row or column in the adjacency matrix.
+The convention followed here (for undirected graphs) is that each edge adds 1 to the appropriate cell in the matrix, and each loop adds 2. This allows the degree of a vertex to be easily found by taking the sum of the values in either its respective row or column in the adjacency matrix.
 
 Above graph will have the following adjacency matrix:
 ```js
