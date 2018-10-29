@@ -1,6 +1,6 @@
 const Queue = require('./../15-queue/Queue');
 
-function bfs(Graph, start, end) {
+function bfs(graph, start, end) {
   const q = new Queue();
   const visited = [];
 
@@ -18,7 +18,7 @@ function bfs(Graph, start, end) {
       return [...path, vertex];
     }
 
-    const neighbours = Graph[vertex];
+    const neighbours = graph[vertex];
     for (let i = 0; i < neighbours.length; i++) {
       q.enqueue([neighbours[i], [...path, vertex]]);
     }
