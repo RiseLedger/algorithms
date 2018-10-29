@@ -1,13 +1,5 @@
 const bfs = require('./bfs');
+const graph = require('./graph');
 
-const Graph = {
-  'A': ['B', 'C'],
-  'B': ['C', 'F'],
-  'C': ['D', 'E'],
-  'D': ['E'],
-  'E': [],
-  'F': ['E'],
-};
-
-const result = bfs(Graph, 'A', 'E');
+const result = bfs(graph, 'A', 'E');
 console.log(result);
