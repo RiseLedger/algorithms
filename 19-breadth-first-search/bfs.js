@@ -4,9 +4,9 @@ function bfs(Graph, start, end) {
   const q = new Queue();
   const visited = [];
 
-  q.enqueue(start);
+  q.enqueue([start, []]);
   while (!q.isEmpty()) {
-    const vertex = q.dequeue();
+    const [vertex, path] = q.dequeue();
 
     if (visited.includes(vertex)) {
       continue;
@@ -15,12 +15,12 @@ function bfs(Graph, start, end) {
     visited.push(vertex);
 
     if (vertex === end) {
-      return true;
+      return [...path, vertex];
     }
 
     const neighbours = Graph[vertex];
     for (let i = 0; i < neighbours.length; i++) {
-      q.enqueue(neighbours[i]);
+      q.enqueue([neighbours[i], [...path, vertex]]);
     }
   }
 
