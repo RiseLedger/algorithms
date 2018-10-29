@@ -4,7 +4,7 @@ Breadth-first search (BFS) is an algorithm for traversing or searching tree or g
 ## Key points
 * BFS tells you if there's a path from A to B.
 * If there's a path, BFS will find the shortest path.
-* [Queue](15-queue) are used for implementing BFS.
+* Queue are used for implementing BFS.
 
 ## Implementation
 <img width="200" src="graph.png" />
