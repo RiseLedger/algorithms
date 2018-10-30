@@ -11,13 +11,16 @@ Given an array A of n elements with values or records A0, A1, ..., An−1, sorte
 5. If Am > T, set R to m − 1 and go to step 2.
 6. Now Am = T, the search is done; return m.
 
-## Run from terminal
-```sh
-node binarySearch '[list]' n
-```
-where `[list]` is array of sorted number and `n` is the number you want to search.
-* If n matches with an element, return the index.
-* If n doesn’t match with any of elements, return -1.
+## Implementation
+**Input:**
+- sorted array of numbers
+- start index
+- end index
+- `n` value to check
+
+**Output:**
+- If `n` matches with an element, return the index.
+- If `n` doesn’t match with any of elements, return -1.
 
 ### Resources:
 * https://en.wikipedia.org/wiki/Binary_search_algorithm
