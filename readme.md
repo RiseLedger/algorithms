@@ -21,3 +21,4 @@ Data Structures and Algorithms Challenges
 * [Hash Table](17-hash-table)
 * [Graph](18-graph)
 * [Breadth-First Search](19-breadth-first-search)
+* [Depth-First Search](20-depth-first-search)
