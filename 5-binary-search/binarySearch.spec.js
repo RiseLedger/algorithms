@@ -1,6 +1,6 @@
 const binarySearch = require('./binarySearch');
 
-describe.only('binarySearch', () => {
+describe('binarySearch', () => {
   const arr = [1, 5, 7];
 
   test('should output -1 for inexisting number in array', () => {
