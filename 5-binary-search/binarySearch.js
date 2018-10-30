@@ -1,7 +1,3 @@
-const [arr, n] = process.argv.slice(2);
-const list = JSON.parse(arr);
-const num = Number(n);
-
 function binarySearch(list, l, r, num) {
   if (l > r) {
     return -1;
@@ -22,5 +18,4 @@ function binarySearch(list, l, r, num) {
   return m;
 }
 
-const output = binarySearch(list, 0, list.length - 1, num);
-console.log(output);
+module.exports = binarySearch;
