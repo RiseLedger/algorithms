@@ -22,3 +22,4 @@ Data Structures and Algorithms Challenges
 * [Graph](18-graph)
 * [Breadth-First Search](19-breadth-first-search)
 * [Depth-First Search](20-depth-first-search)
+* [Topological Sort](21-topological-sort)
