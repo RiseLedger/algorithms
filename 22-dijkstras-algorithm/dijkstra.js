@@ -1,49 +1,46 @@
-function getActiveNodeWithLessDistance(nodes) {
+function getActiveNodeIndexWithLessDistance(nodes) {
   let node = nodes.find(v => v.state === 1);
 
-  for (let i = 1; i < nodes.length; i++) {
-    const currentNode = nodes[i];
-    if (currentNode.state === 1 && node.distance > currentNode.distance) {
+  for (let i = 0; i < nodes.length; i++) {
+    if (nodes[i].state === 1 && node.distance > nodes[i].distance) {
       node = nodes[i];
     }
   }
 
-  return node;
+  return node.value;
 }
 
 function dijkstra(graph, source) {
   const nodes = [];
 
   for (let i = 0; i < graph.length; i++) {
-    const node = {
+    nodes.push({
       value: i,
       distance: source === i ? 0 : Infinity,
       state: source === i ? 1 : 0,
       prev: null,
-    };
-
-    nodes.push(node);
+    })
   }
 
   while (nodes.some(v => v.state !== 2)) {
-    const vertex = getActiveNodeWithLessDistance(nodes);
+    const index = getActiveNodeIndexWithLessDistance(nodes);
 
     for (let i = 0; i < nodes.length; i++) {
-      if (graph[vertex.value][i] !== 0 && nodes[i].state !== 2) {
-        const distance = vertex.distance + graph[vertex.value][i];
-
+      if (graph[index][i] !== 0 && nodes[i].state !== 2) {
+        const distance = nodes[index].distance + graph[index][i];
         if (distance < nodes[i].distance) {
           nodes[i].distance = distance;
-          nodes[i].prev = vertex.value;
-          nodes[i].state = 1;
+          nodes[i].prev = nodes[index].value;
         }
-      }
 
-      nodes[vertex.value].state = 2;
+        nodes[i].state = 1;
+      }
     }
+
+    nodes[index].state = 2;
   }
 
-  console.log('final result', nodes);
+  return nodes;
 }
 
 module.exports = dijkstra;
