@@ -22,4 +22,4 @@ Above graph will be used as an example to show how BFS works.
 
 ### Resources
 * https://en.wikipedia.org/wiki/Breadth-first_search
-* http://graphonline.ru/en/
+* https://graphonline.ru/en/
