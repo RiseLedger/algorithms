@@ -1,4 +1,4 @@
-const Stack = require('./../7-stack/Stack');
+const Stack = require('./../07-stack/Stack');
 
 function dfs(graph, start, end) {
   const s = new Stack();

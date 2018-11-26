@@ -1,4 +1,4 @@
-var Stack = require('../7-stack/Stack');
+var Stack = require('../07-stack/Stack');
 
 class Queue {
   constructor() {
