@@ -24,3 +24,4 @@ Data Structures and Algorithms Challenges
 * [Depth-First Search](20-depth-first-search)
 * [Topological Sort](21-topological-sort)
 * [Dijkstra's Algorithm](22-dijkstras-algorithm)
+* [Heap's Algorithm](23-heaps-algorithm)
