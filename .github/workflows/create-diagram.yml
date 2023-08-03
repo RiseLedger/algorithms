@@ -14,9 +14,4 @@ jobs:
         uses: githubocto/repo-visualizer@main
         with:
           excluded_paths: ".github"
-          should_push: false
-          artifact_name: "codebase-visualization"
-      - name: Get artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: "codebase-visualization"
+          branch: "codebase-visualization"
