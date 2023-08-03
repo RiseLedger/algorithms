@@ -25,6 +25,3 @@ Data Structures and Algorithms Challenges
 * [Topological Sort](21-topological-sort)
 * [Dijkstra's Algorithm](22-dijkstras-algorithm)
 * [Heap's Algorithm](23-heaps-algorithm)
-
-## Diagram
-![Visualization of the codebase](https://github.com/RiseLedger/algorithms/wiki/diagram.svg)
