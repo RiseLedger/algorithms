@@ -17,7 +17,6 @@ jobs:
           should_push: false
           artifact_name: "codebase-visualization"
       - name: Get artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: "codebase-visualization"
-          path: "downloads"
