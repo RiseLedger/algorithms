@@ -28,3 +28,6 @@ Data Structures and Algorithms Challenges
 
 ## Diagram
 ![Visualization of the codebase](https://github.com/RiseLedger/algorithms/blob/codebase-visualization/diagram.svg)
+
+# Test
+This is a test message
